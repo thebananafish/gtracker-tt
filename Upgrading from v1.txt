@@ -1,0 +1,27 @@
+UPGRADING FROM TORRENTTRADER V1.05+
+==================================
+
+TorrentTrader v2.xx should be regarded as a new branch of the torrenttrader project,
+there are many code changes within the backend and overall functions that make many
+v1.x modifications incompatiable without modification
+
+
+TorrentTrader v2.xx is best used as a fresh install to avoid problems.
+
+
+HOWEVER: We have created a guide for those who would like to upgrade to v2.xx from v1.05+
+(we do not advise this for people who are not familiar with PHP or MYSQL)
+
+This guide can be found within our v2 secion of the forums at www.torrenttrader.org
+
+Here is the basics of what the guide will do.
+- Enable you to keep all users and .torrents of your v1 install
+- Upgrade your database to v2 spec's
+
+NOTE:
+=====
+-Upgrading is at your own risk!!!
+-Upgrading is not reversable (make sure you have backups)
+-You will need to adjust all torrents categories to include main cats
+-You will need to adjust all staff members
+-You will need to adjust member classes where needed

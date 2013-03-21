@@ -1,0 +1,61 @@
+Last Updated: 07/Feb/10 21:41
+
+======================================
+This applies to any version under 2.06
+======================================
+SQL:
+ALTER TABLE `warnings` ADD `active` ENUM('yes', 'no') DEFAULT 'yes'; 
+
+
+=========================
+Upgrading from v2.00-2.02
+=========================
+Change the version number in config.php
+Overwrite all files except backend/mysql.php and backend/config.php then run the following SQL:
+ALTER TABLE `users` ADD `tzoffset` INT(4) UNSIGNED DEFAULT 0;
+ALTER TABLE `categories` ADD UNIQUE `parent_cat-name` (`parent_cat`, `name` );
+ALTER TABLE `torrents` ADD `anon` ENUM( 'yes', 'no' ) NOT NULL DEFAULT 'no' AFTER `owner`;
+UPDATE `torrents` SET `anon` = 'yes' WHERE `owner` = 0;
+ALTER TABLE `completed` ADD UNIQUE `userid_torrentid` (`userid`, `torrentid`);
+add:
+$site_config["torrenttable_columns"] = "category,name,dl,uploader,comments,size,seeders,leechers,health,external";
+$site_config["torrenttable_expand"] = "";
+to config.php
+
+
+=========================
+Upgrading from v2.03
+=========================
+Change the version number in config.php
+SQL:
+ALTER TABLE `categories` ADD UNIQUE `parent_cat-name` (`parent_cat`, `name` );
+ALTER TABLE `torrents` ADD `anon` ENUM( 'yes', 'no' ) NOT NULL DEFAULT 'no' AFTER `owner`;
+UPDATE `torrents` SET `anon` = 'yes' WHERE `owner` = 0;
+ALTER TABLE `completed` ADD UNIQUE `userid_torrentid` (`userid`, `torrentid`);
+add:
+$site_config["torrenttable_columns"] = "category,name,dl,uploader,comments,size,seeders,leechers,health,external";
+$site_config["torrenttable_expand"] = "";
+to config.php
+
+
+=========================
+Upgrading from v2.04
+=========================
+
+Change the version number in config.php
+Overwite all files except backend/mysql.php and backend/config.php
+SQL:
+CREATE TABLE `censor` (
+  `word` varchar(10) NOT NULL default '',
+  `censor` varchar(10) NOT NULL default ''
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+INSERT INTO `censor` VALUES ('fuck', 'f**k');
+ALTER TABLE `completed` ADD UNIQUE `userid_torrentid` (`userid`, `torrentid`);
+
+
+=========================
+Upgrading from v2.05
+=========================
+SQL:
+ALTER TABLE `completed` ADD UNIQUE `userid_torrentid` (`userid`, `torrentid`);

@@ -1,0 +1,443 @@
+/* Get Theme CSS */
+@import url('nav.css');
+@import url('theme.css');
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+}
+body, td, th, h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #999;
+}
+input, select {
+	font-size: 11px;
+	margin: 2px;
+	background-color: #CECECE;
+	background-image: url(images/tHead.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	padding: 4px;
+	border: 1px solid #000;
+}
+textarea {
+	background-color: #222;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #333;
+	border-bottom-color: #333;
+	border-left-color: #000;
+	color: #999;
+	padding: 5px;
+	font-size: 12px;
+}
+body {
+	background-color: #222;
+	background-image: url(images/bkg.gif);
+	background-repeat: repeat;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+img {
+	border: 0px none;
+}
+a {
+	outline: none; 
+}
+a:link, a:visited, a:active {
+	text-decoration: none;
+	color: #83bac4;
+	font-weight: normal;
+	font-size: 8pt;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 8pt;
+}
+.ttable_head a, .table_head a, .rowTabHead a {
+	color: #000000;
+	text-decoration: none;
+	font-family: verdana;
+	font-size: 10px;
+	font-weight: bold;
+}
+.wrapperA {
+	background-image: url(images/bkg-t.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	min-height: 100%;
+}
+.wrapperB {
+	display: block;
+	padding: 0px;
+	width: 1106px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+}
+.navigation {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	clear: right;
+	float: right;
+	height: 55px;
+	width: auto;
+}
+.logo {
+	background-image: url(images/logo.gif);
+	background-repeat: no-repeat;
+	background-position: 10px bottom;
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+	width: 1106px;
+	position: relative;
+}
+.avatar {
+	background-image: url(images/avatar.gif);
+	display: block;
+	height: 70px;
+	width: 70px;
+	padding-top: 11px;
+	padding-right: 9px;
+	padding-bottom: 9px;
+	padding-left: 11px;
+	position: absolute;
+	top: 2px;
+	right: 10px;
+	background-repeat: no-repeat;
+}
+#toolbar {
+	display: block;
+	padding: 0px;
+	height: 61px;
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+	width: 320px;
+}
+.credits {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+	color: #999999;
+	display: block;
+	padding: 8px;
+	clear: both;
+	height: 20px;
+	width: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.mySearch, .myLogin {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	clear: left;
+	float: left;
+	height: 29px;
+	position: absolute;
+	left: 10px;
+	top: 0px;
+	border: 0px none;
+}
+.mySearch {
+	height: 29px;
+	width: 183px;
+}
+.mySearch form {
+	margin: 0px;
+	padding: 0px;
+	height: 29px;
+	width: 183px;
+	background-image: url(images/mySearch.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+.mySearch form fieldset {
+	margin: 0px;
+	padding: 0px;
+	height: 29px;
+	width: 183px;
+	border: 0px none;
+}
+.mySearch form fieldset input.mySearch-t {
+	background-color: transparent;
+	border: 0px none;
+	display: block;
+	height: 29px;
+	width: 143px;
+	background-image: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	font-size: 14px;
+	line-height: 29px;
+	color: #999999;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 17px;
+	margin: 0px;
+}
+.mySearch form fieldset input.mySearch-b {
+	background-color: transparent;
+	border: 0px none;
+	background-image: url(images/search-btn.gif);
+	background-repeat: no-repeat;
+	background-position: -1px 0px;
+	margin: 0px;
+	padding: 0px;
+	height: 29px;
+	width: 26px;
+	position: absolute;
+	top: 0px;
+	left: 156px;
+}
+.mySearch form fieldset input.mySearch-b:hover {
+	background-color: transparent;
+	border: 0px none;
+	background-position: -28px;
+}
+.myLogin {
+	height: 29px;
+	width: 444px;
+}
+.myLogin form {
+	margin: 0px;
+	padding: 0px;
+	height: 29px;
+	width: 444px;
+}
+.myLogin form fieldset {
+	margin: 0px;
+	padding: 0px;
+	height: 29px;
+	width: 444px;
+	border: 0px none;
+}
+input.myLogin-n {
+	background-image: url(images/login-n.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-align: left;
+	display: block;
+	clear: left;
+	float: left;
+	height: 18px;
+	width: 155px;
+	padding-right: 4px;
+	padding-left: 24px;
+	border: 0px none;
+	line-height: 29px;
+	color: #999999;
+	background-color: transparent;
+	padding-top: 5px;
+	padding-bottom: 6px;
+}
+input.myLogin-p {
+	background-image: url(images/login-p.gif);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	text-align: left;
+	display: block;
+	clear: left;
+	float: left;
+	height: 18px;
+	width: 155px;
+	padding-right: 4px;
+	padding-left: 24px;
+	border: 0px none;
+	line-height: 29px;
+	color: #FF9900;
+	background-color: transparent;
+	position: absolute;
+	left: 188px;
+	top: 0px;
+	padding-top: 5px;
+	padding-bottom: 6px;
+}
+input.myLogin-b {
+	background-image: url(images/login-btn.gif);
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	clear: right;
+	float: right;
+	height: 29px;
+	width: 66px;
+	position: absolute;
+	top: 2px;
+	right: 0px;
+	border: 0px none;
+	background-color: transparent;
+}
+input.myLogin-b:hover {
+	background-position: right;
+}
+.rss {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	clear: left;
+	float: left;
+	height: 29px;
+	position: absolute;
+	left: 198px;
+	top: 0px;
+	border: 0px none;
+	width: 32px;
+}
+.rss a {
+	background-image: url(images/rss-btn.gif);
+	background-repeat: no-repeat;
+	background-position: left 0px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	height: 29px;
+	width: 32px;
+	border: 0px none;
+}
+.rss a:hover {
+	background-position: -34px;
+}
+.user {
+	line-height: 29px;
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	clear: right;
+	float: right;
+	height: 29px;
+	position: absolute;
+	top: 0px;
+	right: 118px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 12px;
+	white-space: nowrap;
+}
+.user span {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 29px;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	height: 29px;
+}
+.mcol {
+	padding: 0px;
+	clear: right;
+	float: right;
+	width: 883px;
+	color: #CCCCCC;
+	margin-top: 0px;
+	margin-right: 11px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.lcol {
+	padding: 0px;
+	clear: left;
+	float: left;
+	width: 180px;
+	color: #666666;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 11px;
+}
+.col-switch {
+	position: absolute;
+	z-index: 999;
+	top: 150px;
+	left: 10px;
+}
+.myFrame {
+	width: 100%;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+.f-cap {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #666;
+	background-image: url(images/f-cap.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 29px;
+	line-height: 29px;
+	font-weight: bold;
+	text-indent: 46px;
+	text-align: left;
+}
+.f-con {
+	background-image: url(images/f-con.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 13px;
+	padding-left: 5px;
+	font-size: 11px;
+}
+.myBlock {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+}
+.b-cap {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 23px;
+	font-weight: bold;
+	color: #666;
+	background-image: url(images/b-cap.gif);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: left;
+	text-indent: 20px;
+	height: 23px;
+	float: left;
+	border-bottom-width: 2px;
+	border-bottom-style: dotted;
+	border-bottom-color: #505050;
+	width: 160px;
+	padding: 0px;
+	display: block;
+	position: relative;
+	margin-top: 0px;
+	margin-right: 19px;
+	margin-bottom: 6px;
+	margin-left: 0px;
+}
+.b-con {
+	display: block;
+}
+

@@ -1,0 +1,332 @@
+/* Link colors */
+A { outline: none; }
+A:link, A:visited, A:active {
+	text-decoration: none;
+	color: #83bac4;
+	font-size:8pt;
+}
+A:hover {
+	text-decoration: underline;
+	color: #FFF;
+	font-size:8pt;
+}
+
+BODY, TD, H1 {
+	font-size:8pt;
+	font-family: Verdana;
+	color: #999;
+}
+.mcol table {
+	background-color: transparent;
+}
+/* DEFINE THE EXPAND CROSS LOCATION IN TORRENTTABLE */
+.showthecross{ margin-top: 0px; margin-right: 0px; margin-left: 2px; float: left;}
+
+/* TORRENTTABLE() */
+.ttable_headouter { border-collapse: collapse; }
+.ttable_headinner {	border-collapse: collapse; border:1px solid #333; }
+.ttable_head {
+	font-family: Verdana;
+	color: #000000;
+	font-size: 10px;
+	text-align: center;
+	background-color: #CECECE  !important;
+	background-image: url(images/tHead.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	margin: 0px;
+	padding: 0px;
+	height: 18px;
+	font-weight: bold;
+}
+.ttable_col1 {
+	font-family: 'Verdana';
+	border:1px solid #333;
+	font-size: 8pt;
+	background-color: transparent;
+	background-image: url(images/alt1.png);
+}
+.ttable_col2 {
+	font-family: 'Verdana';
+	border:1px solid #333;
+	font-size: 8pt;
+	background-color: transparent;
+	background-image: url(images/alt2.png);
+}
+.ttable_colx {
+	font-family: 'Verdana';
+	border:1px solid #333;
+	font-size: 8pt;
+	background-color: transparent;
+	background-image: url(images/alt2.png);
+}
+
+/* Define Other Tables */
+.table_table {
+	border: #333;
+	border-width: 1px;
+	border-collapse:collapse;
+	font-family: verdana;
+	color: #000000;
+}
+.table_head {
+	font-family: 'Verdana';
+	border:1px solid #333;
+	font-size: 8pt;
+	color: #000000;
+	background-color: #CECECE  !important;
+	background-image: url(images/tHead.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.table_col1 {
+	font-family: 'Verdana';
+	border:1px solid #333;
+	font-size: 8pt;
+	background-color: #1c1c1c;
+	background-image: url(images/alt1.png);
+}
+.table_col2 {
+	font-family: 'Verdana';
+	border:1px solid #333;
+	font-size: 8pt;
+	background-color: #1c1c1c;
+	background-image: url(images/alt2.png);
+}
+
+
+.rowTabHead {
+	background-color : #CECECE  !important;
+	padding : 2px;
+	font-family : Verdana;
+	font-size : 10px;
+	line-height: 14px;
+	background-image: url(images/tHead.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+.row1 {
+	background-color : transparent;
+	padding : 4px;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 10px;
+	background-image: url(images/alt1.png);
+}
+.row2 {
+	padding : 4px;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 10px;
+	background-color: transparent;
+	background-image: url(images/alt2.png);
+}
+.rowEnd {
+	padding : 4px;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-size : 10px;
+	background-color: transparent;
+	background-image: url(images/alt1.png);
+}
+.tablebg {
+	background-color : transparent;
+	padding : 0;
+	border : 0 solid #006699;
+	margin: 0;
+}
+
+
+/* Torrents-details download box*/
+#downloadbox {
+	padding: .75em;
+	background-color: #eff3fb;
+	border: 1px solid #8ba7cd;
+}
+
+/*DEFINE THE SHOUTBOX CSS */
+#shoutbox {
+	margin: 3px;
+	height: 220px;
+	width: 99%;
+}
+.shoutbox_body {
+	font-family: verdana;
+	color: #CCCCCC;
+	background-color: #1C1C1C;
+	background-image: none;
+}
+.shoutbox_contain { border: 0; height: 150px; width: 100%; overflow: auto; }
+.shoutbox_history { border: 0;height: 100%;width: 100%; }
+.shoutbox_messageboxback {
+	background-color: #1C1C1C;
+}
+.shoutbox_messageboxback a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+.shoutbox_noalt {
+	background-color: transparent;
+	background-image: url(images/alt1.png);
+	background-repeat: repeat;
+	text-indent: 4px;
+}
+.shoutbox_alt {
+	background-color: transparent;
+	background-image: url(images/alt2.png);
+	background-repeat: repeat;
+	text-indent: 4px;
+}
+.shoutbox_msgbox {
+	width: 100%;
+	background-color: #333;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #444;
+	border-bottom-color: #444;
+	border-left-color: #000;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-image: none;
+	padding: 0px;
+	margin: 0px;
+}
+.shoutbox_shoutbtn {
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #333;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #444;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #444;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCCCCC;
+	background-image: none;
+	padding: 0px;
+	margin: 0px;
+}
+.shoutbox_error { color: red;font-size: 13px; }
+
+/* Blocks Management */
+.btn, .btnDisable {
+	width: auto;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #444;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #444;
+	background-color : #CECECE  !important;
+	color: black;
+	font-family : Verdana, serif;
+	font-size : 10pt;
+	font-weight : normal;
+	cursor:pointer;
+	background-image: url(images/tHead.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	display: block;
+}
+small {
+	color: #999;
+}
+.f-cap  small {
+	color: #FFF;
+}
+.fborder {
+	border-collapse: collapse;
+	border:1px solid #333;
+}
+.ftable {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000000;
+	font-size: 11px;
+	text-align: center;
+	background-color: #CECECE  !important;
+	background-image: url(images/tHead.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	line-height: 20px;
+	text-indent: 10px;
+	height: 20px;
+	font-weight: bold;
+}
+.ftable a {
+	color: #333333 !important;
+}
+.fhead {
+	background-color: #1C1C1C;
+	background-image: url(images/f-logo.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.f-trow {
+	line-height: 18px;
+	color: #333333;
+	background-image: url(images/tHead.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #CECECE  !important;
+}
+.forumcat {
+	color: #CCC;
+	background-image: url(images/alt1.png);
+}
+.f-posthead {
+	background-color: #CECECE  !important;
+	background-image: url(images/tHead.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	font-size: 120%;
+	line-height: 18px;
+	font-weight: bold;
+	color: #000;
+	height: 18px;
+}
+.f-posthead a {
+	color: #000 !important;
+}
+.f-postfoot {
+	margin-bottom: 8px;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #333;
+	border-left-color: #333;
+	border-bottom-color: #333;
+	background-image: url(images/alt2.png);
+}
+.f-postform {
+	background-image: url(images/alt1.png);
+}
+.f-postform input {
+}
+.alt1 {
+	background-color: #171717;
+}
+.alt2 {
+	background-color: #242424;
+}

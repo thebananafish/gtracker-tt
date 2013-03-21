@@ -1,0 +1,185 @@
+/*
+	xBreadcrumbs (Extended Breadcrumbs) jQuery Plugin
+	© 2009 ajaxBlender.com
+	For any questions please visit www.ajaxblender.com 
+	or email us at support@ajaxblender.com
+*/
+
+.jCrumbs {
+	position: relative;
+	z-index: 1000;
+}
+.jCrumbs LI UL { 
+	position: absolute;
+	float: left;
+}
+.jCrumbs, .jCrumbs LI, .jCrumbs UL, .jCrumbs UL LI {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.jCrumbs { clear: both; }
+.jCrumbs, .jCrumbs LI {
+	float: left;
+}
+.jCrumbs UL {
+	display: none;
+}
+
+/*  Base style of xBreadcrumbs  */
+/*  Top Level  */
+.jCrumbs {
+	width: 100%;
+}
+.jCrumbs LI {
+	height: 55px;
+	width: 108px;
+}
+.jCrumbs LI.current {
+	line-height: 55px;
+}
+.jCrumbs LI A {
+	font-size: 12px;
+	color: #BBB;
+	text-decoration: none;
+	text-align: center;
+	padding: 0px;
+	height: 55px;
+	width: 108px;
+	line-height: 45px;
+	background-image: url(images/btn.gif);
+	background-repeat: no-repeat;
+	background-position: center top;
+	display: block;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.jCrumbs LI A:HOVER, .jCrumbs LI.hover A {
+	color: #66CCCC;
+	line-height: 55px;
+	background-image: url(images/btn.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+/*  Top Level - Current Page  */
+.jCrumbs LI.current A {
+	color: #66CCCC;
+}
+/*  Sub-level  */
+.jCrumbs LI UL {
+	padding: 5px;
+	font-size: 11px;
+	width: 180px;
+	top: 54px;
+	background-color: transparent;
+	background-image: url(images/alt1.png);
+	border: 1px solid #333333;
+	background-repeat: repeat;
+}
+.jCrumbs LI UL LI {
+	float: left;
+	width: 100%;
+	border-right: none;
+	height: auto;
+	background-image: url(images/alt1.png);
+	background-repeat: repeat;
+}
+.jCrumbs LI UL LI A {
+	text-decoration: none;
+	color: #CCCCCC !important;
+	display: block;
+	border-bottom: 1px dotted #666666;
+	line-height: 24px !important;
+	height: 24px;
+	background-image: url(images/alt1.png) !important;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	background-repeat: repeat !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-align: left;
+	text-indent: 7px;
+}
+.jCrumbs LI UL LI:last-child A {
+	border-bottom: none;
+}
+.jCrumbs LI UL LI A:HOVER {
+	line-height: 24px !important;
+	height: 24px;
+	background-color: #222;
+	background-image: none !important;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	color: #66CCCC !important;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.toolbar {
+	position: absolute;
+	top: 29px;
+	right: 100px;
+}
+ .kwicks {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	height: 90px;
+	position: relative;
+	top: 0px;
+	right: 0px;
+ }  
+ .kwicks li{
+	display: block;
+	overflow: hidden;
+	padding: 0px;
+	cursor: pointer;
+	float: left;
+	width: 60px;
+	height: 90px;
+	background-image:url(images/kwicks_sprite.jpg);
+	background-repeat:no-repeat;
+	margin: 0px;
+}
+.kwicks a{
+	display:block;
+	height:90px;
+	text-indent:-9999px;
+	outline:none;
+	margin: 0px;
+	padding: 0px;
+}
+#kwick1 {
+	background-position:0px 0px;
+	background-image: url(images/img-1.gif);
+}
+#kwick2 {
+	background-position:0px 0px;
+	background-image: url(images/img-2.gif);
+}
+#kwick3 {
+	background-position:0px 0px;
+	background-image: url(images/img-3.gif);
+}
+#kwick4 {
+	background-position:0px 0px;
+	background-image: url(images/img-4.gif);
+}
+#kwick5 {
+	background-position:0px 0px;
+	background-image: url(images/img-5.gif);
+}
+#kwick6 {
+	background-position:0px 0px;
+	background-image: url(images/img-6.gif);
+}
+#kwick7 {
+	background-position:0px 0px;
+	background-image: url(images/img-7.gif);
+}
